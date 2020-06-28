@@ -5,5 +5,7 @@ public class cipher {
     }
 
     public String getInputString() {
+        return "Z";
     }
 }
+
