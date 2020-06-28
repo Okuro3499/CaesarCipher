@@ -16,4 +16,11 @@ public class cipherTest {
         cipher testCipher = new cipher("A", 0);
         assertEquals("A", testCipher.getInputString());
     }
+
+    @Test
+    public void newCipher_getsCipherKey(){
+        cipher testCipher = new cipher("A",0);
+        Integer expectedOutput = 0;
+        assertEquals(expectedOutput, testCipher.getCipherKey());
+    }
 }
