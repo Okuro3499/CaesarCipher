@@ -23,4 +23,10 @@ public class cipherTest {
         Integer expectedOutput = 0;
         assertEquals(expectedOutput, testCipher.getCipherKey());
     }
+
+    @Test
+    public void newCipher_cipheredInputString(){
+        cipher testCipher = new cipher("A", 23);
+        assertEquals("X", testCipher.getCipheredString());
+    }
 }
