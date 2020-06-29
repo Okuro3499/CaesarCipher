@@ -22,11 +22,11 @@ You will need Internet connection.
 
 You will also need a Webpage URL to load in URL's:
 
-To get to use QUOTES fist you need to get to the Quotes-Angular repository.
+To get to use CaesarCipher first you need to get to the Caesar Cipher repository.
 
 Fork the repository
 
-Copy Repo link https://github.com/Okuro3499/github-search.git
+Copy Repo link https://github.com/Okuro3499/CaesarCipher.git
 
 Clone the project.
 
